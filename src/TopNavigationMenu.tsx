@@ -5,7 +5,7 @@ function TopNavigationMenu ()
 return (
     <nav style={styles.navbar}> {/* You can style the navbar directly or use a separate CSS file */}
      <div style={styles.logoContainer}>
-        <img src="ROFlogo.png" alt="Logo" style={styles.logo} />
+        <img src="/src/ROFlogo.png" alt="Logo" style={styles.logo} />
         <div style={styles.textContainer}>
         <span style={styles.text}><h2>
   ROF

@@ -4,9 +4,12 @@ import ReCAPTCHA from "react-google-recaptcha";
 import emailjs from "@emailjs/browser";
 
 
+// Link til Google ReCAPCHA key generation: https://www.google.com/recaptcha/admin/create
 // google site key for ReCAPTCHA:   6Lc0h9wqAAAAAOud9SypytUXldGyB4jiByjLDf0c
 // google secret  key for ReCAPTCHA:   6Lc0h9wqAAAAABLeOCBvRsgEdvQEekvkTkNI28GG
 
+
+// Link til EmailJS dashboard: https://dashboard.emailjs.com/admin/templates/s9uur3c
 // EmailJS Public key:          3pKGZO5lBNF5r5q9f
 // EmailJS private key:         r91QopLBjNq3MUDDXM0tp
 // EmailJS Mail Template id:    template_dpqv7dr

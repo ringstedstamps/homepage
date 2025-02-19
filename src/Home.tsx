@@ -1,9 +1,12 @@
+
+import millImage from './Mill.jpg'; // Adjust the path as needed
+
 function Home() {
    
     return (
       <div style={styles.main}>
         <div style={styles.box}>
-          <img src="Mill.jpg" alt="Logo" style={styles.image} />
+          <img src={millImage} alt="Logo" style={styles.image} />
         </div>
         <div  style={{...styles.box, minHeight: "800px" }}>
             <div>
@@ -34,7 +37,7 @@ function Home() {
             </div>
         </div>
         <div style={styles.box}>
-          <img src="Mill.jpg" alt="Logo" style={styles.image} />
+        <img src={millImage} alt="Logo" style={styles.image} />
         </div>
       </div>
     );

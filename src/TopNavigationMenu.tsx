@@ -1,21 +1,22 @@
-import { Link } from 'react-router-dom';  
+import { Link } from 'react-router-dom';
 
-function TopNavigationMenu () 
-{
-return (
+import logo from './ROFlogo.png'; // Adjust the path as needed
+
+function TopNavigationMenu() {
+  return (
     <nav style={styles.navbar}> {/* You can style the navbar directly or use a separate CSS file */}
-     <div style={styles.logoContainer}>
-        <img src="/src/ROFlogo.png" alt="Logo" style={styles.logo} />
+      <div style={styles.logoContainer}>
+        <img src={logo} alt="Logo" style={styles.logo} />
         <div style={styles.textContainer}>
-        <span style={styles.text}><h2>
-  ROF
-  <br />
-  Ringsted og Omegns Frimærkeklub
-  <br />
-</h2></span>
+          <span style={styles.text}><h2>
+            ROF
+            <br />
+            Ringsted og Omegns Frimærkeklub
+            <br />
+          </h2></span>
+        </div>
       </div>
-      </div>
-     
+
       <ul style={styles.navList}>
         <li style={styles.navItem}>
           <Link to="/home" style={styles.navLink}>Forside</Link>
@@ -41,43 +42,43 @@ return (
 }
 
 const styles = {
-    navbar:  {
-      backgroundColor: '#ffffff',
-      padding: '10px',
-      textAlign: 'center' as 'center',
-    },
-    navList: {
-      listStyle: 'none',
-      padding: 0,
-      margin: 0,
-      display: 'flex',
-      justifyContent: 'center',
-    },
-    navItem: {
-      margin: '0 20px',
-    },
-    navLink: {
-      color: 'black',
-      textDecoration: 'none',
-      fontSize: '18px',
-    },
-    logoContainer: {
-      display: 'flex',
-      alignItems: 'center',
-    },
-    logo: {
-      height: '70px', // Adjust logo size here
-      width: 'auto',
-    },
-    textContainer: {
-      display: 'flex',
-      alignItems: 'center',  // Vertically align text with logo
-      marginLeft: '10px',    // Space between the logo and text
-    },
-    text: {
-      color: 'black',
-      fontSize: '18px',
-      fontWeight: 'bold',
-    },
-  };
+  navbar: {
+    backgroundColor: '#ffffff',
+    padding: '10px',
+    textAlign: 'center' as 'center',
+  },
+  navList: {
+    listStyle: 'none',
+    padding: 0,
+    margin: 0,
+    display: 'flex',
+    justifyContent: 'center',
+  },
+  navItem: {
+    margin: '0 20px',
+  },
+  navLink: {
+    color: 'black',
+    textDecoration: 'none',
+    fontSize: '18px',
+  },
+  logoContainer: {
+    display: 'flex',
+    alignItems: 'center',
+  },
+  logo: {
+    height: '70px', // Adjust logo size here
+    width: 'auto',
+  },
+  textContainer: {
+    display: 'flex',
+    alignItems: 'center',  // Vertically align text with logo
+    marginLeft: '10px',    // Space between the logo and text
+  },
+  text: {
+    color: 'black',
+    fontSize: '18px',
+    fontWeight: 'bold',
+  },
+};
 export default TopNavigationMenu;

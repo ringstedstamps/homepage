@@ -5,8 +5,10 @@ import emailjs from "@emailjs/browser";
 
 
 // Link til Google ReCAPCHA key generation: https://www.google.com/recaptcha/admin/create
-// google site key for ReCAPTCHA:   6Lc0h9wqAAAAAOud9SypytUXldGyB4jiByjLDf0c
+// google site key for ReCAPTCHA for localhost/127.0.0.1:   6Lc0h9wqAAAAAOud9SypytUXldGyB4jiByjLDf0c
 // google secret  key for ReCAPTCHA:   6Lc0h9wqAAAAABLeOCBvRsgEdvQEekvkTkNI28GG
+
+// google site key for ReCAPTCHA  for domain ringstedstamps.github.io :  6LeM49wqAAAAAL3azi9PJn8mCwbmmctcRO-v3s_L
 
 
 // Link til EmailJS dashboard: https://dashboard.emailjs.com/admin/templates/s9uur3c
@@ -16,9 +18,17 @@ import emailjs from "@emailjs/browser";
 // EmailJS Service id :         service_3zap7mq
 function Contact ()
 {
-  
+ 
+
   // State for form inputs
   const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+  });
+
+  // State for errors
+  const [errors, setErrors] = useState({
     name: "",
     email: "",
     subject: "",
@@ -37,12 +47,45 @@ function Contact ()
     setCaptchaValue(value);
   };
 
+  // Validate form fields
+  const validateForm = () => {
+    let isValid = true;
+    let newErrors = { name: "", email: "", subject: "" };
+
+    if (formData.name.trim() === "") {
+      newErrors.name = "Navn skal udfyldes";
+      isValid = false;
+    }
+
+    if (formData.email.trim() === "") {
+      newErrors.email = "Email skal udfyldes";
+      isValid = false;
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      newErrors.email = "Ugyldig email format";
+      isValid = false;
+    }
+
+    if (formData.subject.trim() === "") {
+      newErrors.subject = "Besked skal udfyldes";
+      isValid = false;
+    }
+
+    setErrors(newErrors);
+    return isValid;
+  };
+
   // Handle form submission
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
+    // Validate fields before sending
+    if (!validateForm()) {
+      return;
+    }
+
+    // Check reCAPTCHA
     if (!captchaValue) {
-      alert("Please complete the CAPTCHA!");
+      alert("Klik Jeg er ikke en robot");
       return;
     }
 
@@ -64,62 +107,68 @@ function Contact ()
       .then(
         (response) => {
           console.log("Email sent successfully!", response.status, response.text);
-          alert("Your message has been sent successfully!");
+          alert("Beskeden er sendt");
+          setFormData({ name: "", email: "", subject: "" });
+          setErrors({ name: "", email: "", subject: "" });
         },
         (error) => {
-          console.error("Failed to send email:", error);
-          alert("Failed to send message. Please try again later.");
+          console.error("Fejl ved afsendelse af beskeden", error);
+          alert("Kunne ikke sende besked. Prøv lidt senere");
         }
       );
   };
 
   return (
-    <div style={{ maxWidth: "400px", margin: "auto", padding: "20px", border: "1px solid #ccc", borderRadius: "8px" }}>
-      <h2>Contact Us</h2>
+    <div style={{ maxWidth: "600px", margin: "auto", paddingLeft: "20px", paddingRight: "40px" , border: "1px solid #ccc", borderRadius: "8px" }}>
+      <h2>Kontakt</h2>
+      <label style={{ display: "block", marginBottom: "30px" }}>Du kan kontakte os ved at udfylde denne kontaktformular hvorefter vi vil vende tilbage snarest muligt</label>
       <form onSubmit={handleSubmit}>
         <div style={{ marginBottom: "10px" }}>
-          <label>Name:</label>
+        <label style={{ display: "block", marginBottom: "5px",   fontWeight: "bold" }}>Navn</label>
           <input
             type="text"
             name="name"
             value={formData.name}
             onChange={handleChange}
-            required
-            style={{ width: "100%", padding: "8px", marginTop: "5px" }}
+            // required
+            style={{ width: "100%", height: "30px", padding: "8px", marginTop: "5px" , border: "3px solid #000000" }}
           />
+          {errors.name && <span style={{ color: "red" }}>{errors.name}</span>}
         </div>
 
         <div style={{ marginBottom: "10px" }}>
-          <label>Email:</label>
+        <label style={{ display: "block", marginBottom: "5px", fontWeight: "bold" }}>Email</label>
           <input
             type="email"
             name="email"
             value={formData.email}
             onChange={handleChange}
-            required
-            style={{ width: "100%", padding: "8px", marginTop: "5px" }}
+            //required
+            style={{ width: "100%", height: "30px", padding: "8px", marginTop: "5px" , border: "3px solid #000000" }}
           />
+          {errors.email && <span style={{ color: "red" }}>{errors.email}</span>}
         </div>
 
-        <div style={{ marginBottom: "10px" }}>
-          <label>Subject:</label>
+        <div style={{ marginBottom: "10px"  }}>
+        <label style={{ display: "block", marginBottom: "5px", fontWeight: "bold" }}>Besked</label>
           <input
             type="text"
             name="subject"
             value={formData.subject}
             onChange={handleChange}
-            required
-            style={{ width: "100%", padding: "8px", marginTop: "5px" }}
+            //required
+            style={{ width: "100%",  height: "30px" , padding: "8px", marginTop: "5px" , border: "3px solid #000000" }}
           />
+          {errors.subject && <span style={{ color: "red" }}>{errors.subject}</span>}
         </div>
 
         {/* reCAPTCHA */}
-        <div style={{ marginBottom: "10px" }}>
+        <div style={{ marginBottom: "50px" }}>
           <ReCAPTCHA sitekey="6Lc0h9wqAAAAAOud9SypytUXldGyB4jiByjLDf0c" onChange={handleCaptchaChange} />
         </div>
 
-        <button type="submit" style={{ width: "100%", padding: "10px", backgroundColor: "blue", color: "white", border: "none", borderRadius: "4px" }}>
-          Send Message
+        <button type="submit" style={{ width: "50%", padding: "20px", backgroundColor: "black", color: "white", border: "none", borderRadius: "4px" }}>
+          Send beskeden
         </button>
       </form>
     </div>

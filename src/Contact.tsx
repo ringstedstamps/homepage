@@ -204,11 +204,11 @@ const styles = {
  //   textAlign: "right",
     display: "flex",
     alignItems: "flex-start",
-    justifyContent: "center",
+    justifyContent: "right",
   },
   image: {
     width: "100%",
-    maxWidth: "400px",
+    maxWidth: "800px",
     borderRadius: "8px",
   },
 };

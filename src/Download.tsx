@@ -15,17 +15,17 @@ function Download() {
       <div style={styles.textContainer}>
         <h2>Download</h2>
         <p>        
-        <a href="/ROFs miniauktioner - omslag 2016.pdf" download style={styles.link}>
+        <a href="pdffiles/ROFs miniauktioner - omslag 2016.pdf" download style={styles.link}>
           📄 Omslag for ROF's miniauktion
         </a>        
         </p>
         <p>        
-        <a href="/ROF GF 2024 Dagsorden.pdf" download style={styles.link}>
+        <a href="pdffiles/ROF GF 2024 Dagsorden.pdf" download style={styles.link}>
           📄 Dagsorden GF 2024
         </a>        
         </p> 
         <p>        
-        <a href="/Efterårsprogram ROF 2024, Folder.pdf" download style={styles.link}>
+        <a href="pdffiles/Efterårsprogram ROF 2024, Folder.pdf" download style={styles.link}>
           📄 Efterårsprogram 2024
         </a>        
         </p>

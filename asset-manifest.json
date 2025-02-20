@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/homepage/static/css/main.f855e6bc.css",
-    "main.js": "/homepage/static/js/main.0ed3d3d4.js",
+    "main.js": "/homepage/static/js/main.2aaddc04.js",
     "static/js/453.1eb5cc81.chunk.js": "/homepage/static/js/453.1eb5cc81.chunk.js",
-    "static/media/logo.svg": "/homepage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Mill.jpg": "/homepage/static/media/Mill.9711fa2d2f6d03062b46.jpg",
+    "static/media/ROFlogo.png": "/homepage/static/media/ROFlogo.42f346d24e48026542f3.png",
     "index.html": "/homepage/index.html",
     "main.f855e6bc.css.map": "/homepage/static/css/main.f855e6bc.css.map",
-    "main.0ed3d3d4.js.map": "/homepage/static/js/main.0ed3d3d4.js.map",
+    "main.2aaddc04.js.map": "/homepage/static/js/main.2aaddc04.js.map",
     "453.1eb5cc81.chunk.js.map": "/homepage/static/js/453.1eb5cc81.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.0ed3d3d4.js"
+    "static/js/main.2aaddc04.js"
   ]
 }

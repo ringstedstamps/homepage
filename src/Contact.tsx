@@ -167,7 +167,7 @@ function Contact() {
 
           {/* reCAPTCHA */}
           <div style={{ marginBottom: "50px" }}>
-            <ReCAPTCHA sitekey="6Lc0h9wqAAAAAOud9SypytUXldGyB4jiByjLDf0c" onChange={handleCaptchaChange} />
+            <ReCAPTCHA sitekey="6LeM49wqAAAAAL3azi9PJn8mCwbmmctcRO-v3s_L" onChange={handleCaptchaChange} />
           </div>
 
           <button type="submit" style={{ width: "50%", padding: "20px", backgroundColor: "black", color: "white", border: "none", borderRadius: "4px" }}>

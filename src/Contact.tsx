@@ -119,8 +119,8 @@ function Contact() {
   };
 
   return (
-
-    <div style={styles.container}>
+<>
+    <div style={styles.formImageContainer}>
       {/* <div style={{ maxWidth: "600px", margin: "auto", paddingLeft: "20px", paddingRight: "40px", border: "1px solid #ccc", borderRadius: "8px" }}> */}
       <div style={styles.formContainer}>
         <h2>Kontakt</h2>
@@ -176,40 +176,83 @@ function Contact() {
         </form>
       </div>
       <div style={styles.imageContainer}>
-      <img src={millImage} alt="Logo" style={styles.image} />
+        <img src={millImage} alt="Logo" style={styles.image} />
       </div>
     </div>
+    
+  <div style={styles.twoColumnSection}>
+    <div style={styles.column}>
+      <h1>Bestyrelsen</h1>      
+      <h2>Formand</h2>
+      <p>Jørgen Sørensen</p>
+      <p>Telefon: 2087 1623</p>
+      <p>email: jtscvn@privat.dk</p>
+      <br />
+      <h2>Kasserer</h2>
+      <p>Jens Nelmark</p>
+      <p>Telefon: 2179 6142</p>
+      <p>email: jens@nelmark.dk</p>
+    </div>
+    <div style={styles.column}>
+      <h2>Bestyrelsesmedlemmer</h2>
+
+      <p>- Flemming Havndrup</p>
+      <p>- Erik Jensen</p>
+      <p>- Erik S Andersen</p>
+      <h2>Webmaster</h2>
+      <p>- Kenn Møller</p>
+    </div>
+   
+  </div>
+  
+  </>
   );
 };
 
 
 
 const styles = {
-  container: {
+  formImageContainer: {
     display: "flex",
-    alignItems: "flex-start", // Aligns form & image to the top
+    alignItems: "flex-start",
     justifyContent: "space-between",
-    maxWidth: "2000px",
+    maxWidth: "1600px",
     margin: "auto",
     padding: "20px",
-    gap: "800px", // Increase space between form & image
-   
+    gap: "800px", // Space between form & image
+    //  flexWrap: "wrap", // Ensures proper wrapping if needed
   },
   formContainer: {
     flex: 1,
-    paddingRight: "20px",
+    paddingRight: "40px",
   },
   imageContainer: {
     flex: 1,
- //   textAlign: "right",
-    display: "flex",
-    alignItems: "flex-start",
-    justifyContent: "right",
+    //  textAlign: "right",
   },
   image: {
     width: "100%",
-    maxWidth: "800px",
+    maxWidth: "400px",
     borderRadius: "8px",
   },
+
+  // New Section for Two Columns
+  twoColumnSection: {
+    display: "flex",
+    justifyContent: "center", // Center the two columns horizontally
+    maxWidth: "1200px",
+    margin: "40px auto 0", // Center & add space above
+    gap: "100px",
+  },
+
+  column: {
+    flex: 1,
+    maxWidth: "400px", // Limits column width
+    padding: "20px",
+    border: "1px solid #ddd",
+    borderRadius: "8px",
+    backgroundColor: "#f9f9f9",
+  }
 };
+
 export default Contact;

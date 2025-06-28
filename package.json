@@ -34,7 +34,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://ringstedstamps.github.io/homepage",
+  "homepage": "https://dotnetdev.dk",
   "browserslist": {
     "production": [
       ">0.2%",

@@ -253,6 +253,8 @@ const styles = {
     borderRadius: "8px",
     backgroundColor: "#dadada",
   }
+
+  // Here
 };
 
 export default Contact;

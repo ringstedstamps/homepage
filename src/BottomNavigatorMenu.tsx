@@ -15,7 +15,7 @@ return (
   </p>
   <p style={{ textAlign: "center" }}>
     <span style={{ color: "#000000" }}>4100 Ringsted</span>
-  </p>
+  </p >
     </div>
   );
 }

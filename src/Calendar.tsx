@@ -24,7 +24,7 @@ function Calendar() {
         </p>
        
 
-        <p style={{ fontSize: 18, fontWeight: "bold" }}>
+        <p style={{ fontSize: 18, fontWeight: "bold"  }}>
           06.01.2025
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>

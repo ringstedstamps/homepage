@@ -25,7 +25,7 @@ function Download() {
         </a>        
         </p> 
         <p>        
-        <a href="pdffiles/Efterårsprogram ROF 2024, Folder.pdf" download style={styles.link}>
+        <a href="pdffiles/Efterårsprogram ROF 2024, Folder.pdf" download style={styles.link }>
           📄 Efterårsprogram 2024
         </a>        
         </p>

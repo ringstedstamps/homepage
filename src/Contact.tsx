@@ -241,7 +241,7 @@ const styles = {
     display: "flex",
     justifyContent: "center", // Center the two columns horizontally
     maxWidth: "1200px",
-    margin: "40px auto 0", // Center & add space above
+    margin: "40px auto 0 ", // Center & add space above
     gap: "100px",
   },
 

@@ -6,7 +6,7 @@ function TopNavigationMenu ()
 return (
     <div>
 
-<p style={{ textAlign: "center" }}>
+<p style={{ textAlign: "center"  }}>
     ​<span style={{ color: "#000000" }}>Hyldegården Café</span>
   </p>
   <p style={{ textAlign: "center" }}>

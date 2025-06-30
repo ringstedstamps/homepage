@@ -20,7 +20,7 @@ function Download() {
         </a>        
         </p>
         <p>        
-        <a href="pdffiles/ROF GF 2024 Dagsorden.pdf" download style={styles.link}>
+        <a href="pdffiles/ROF GF 2024 Dagsorden.pdf" download style={styles.link }>
           📄 Dagsorden GF 2024
         </a>        
         </p> 

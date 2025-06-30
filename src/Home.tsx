@@ -11,7 +11,7 @@ function Home() {
         <div  style={{...styles.box, minHeight: "800px" }}>
             <div>
                 <h3>
-                Velkommen til
+                Velkommen til 
                 <br />
                  Ringsted og Omegns Frimærkeklub
             </h3>          

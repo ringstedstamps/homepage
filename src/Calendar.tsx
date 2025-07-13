@@ -13,7 +13,7 @@ function Calendar() {
       <div style={styles.textContainer}>
         {/* <span style={styles.text}> */}
         <p style={{ fontSize: 30 }}>
-          Forår 2025
+          Efterår 2025
         </p>
         <p style={{ fontSize: 20 }}>
           Mødetid: kl. 19.00-22.00 - hvis ikke andet er nævnt
@@ -25,10 +25,10 @@ function Calendar() {
        
 
         <p style={{ fontSize: 18, fontWeight: "bold"  }}>
-          06.01.2025
+          08.09
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-          - Sæsonstart, Nyt over Julen
+          - Sæsonstart, Nyt over sommeren
           </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
@@ -38,10 +38,10 @@ function Calendar() {
         
         
         <p style={{ fontSize: 18, fontWeight: "bold" }}>
-        20.01.2025
+        22.09
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-          - Vi ser på vores Ringsted-samling
+          - Fremlæggelse af Ringstedsamlingen v/Erik A
           </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
@@ -50,10 +50,10 @@ function Calendar() {
         </p>
 
         <p style={{ fontSize: 18, fontWeight: "bold" }}>
-        03.02.2025
+        06.10
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-          - Filateliaften
+          - Filateliaften: Tofarvede med ret og omvendt ramme mm.
           </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
@@ -63,10 +63,10 @@ function Calendar() {
         
 
         <p style={{ fontSize: 18, fontWeight: "bold" }}>
-        17.02.2025
+        19.10
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-          - Bankospil
+          - Byttedag i Sorø, se annonce
           </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>

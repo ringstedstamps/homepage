@@ -41,7 +41,8 @@ function Calendar() {
         22.09
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-          - Fremlæggelse af Ringstedsamlingen v/Erik A
+          - Fremlæggelse af Ringstedsamlingen
+            v/Erik A
           </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
@@ -53,7 +54,8 @@ function Calendar() {
         06.10
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-          - Filateliaften: Tofarvede med ret og omvendt ramme mm.
+          - Filateliaften:
+            Tofarvede med ret og omvendt ramme mm.
           </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>

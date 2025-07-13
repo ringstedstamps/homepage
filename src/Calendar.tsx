@@ -41,8 +41,7 @@ function Calendar() {
         22.09
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-          - Fremlæggelse af Ringstedsamlingen
-            v/Erik A
+          - Fremlæggelse af Ringstedsamlingen v/Erik A
           </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>

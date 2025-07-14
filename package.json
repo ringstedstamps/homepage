@@ -34,7 +34,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://dotnetdev.dk",
+  "homepage": "https://ringstedfrim.dk",
   "browserslist": {
     "production": [
       ">0.2%",

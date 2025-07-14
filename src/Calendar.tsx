@@ -25,10 +25,10 @@ function Calendar() {
 
 
         <p style={{ fontSize: 18, fontWeight: "bold"  }}>
-          06.01.2025
+          08.09.2025
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-          - Sæsonstart, Nyt over Julen
+          Opstart nyt over sommeren samt miniauktion.
           </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>

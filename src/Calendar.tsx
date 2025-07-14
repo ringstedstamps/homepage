@@ -12,7 +12,7 @@ function Calendar() {
       {/* Right Side - Text */}
       <div style={styles.textContainer}>
         {/* <span style={styles.text}> */}
-        <p style={{ fontSize: 30 }}>
+        <p style={{ fontSize: 30 }}>v
           Efterår 2025
         </p>
         <p style={{ fontSize: 20 }}>

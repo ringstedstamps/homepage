@@ -24,12 +24,12 @@ function Calendar() {
         </p>
 
 
-        <p style={{ fontSize: 18, fontWeight: "bold" }}>
-          08.09.2025
+        <p style={{ fontSize: 18, fontWeight: "bold"  }}>
+          06.01.2025
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-           Opstart nyt over sommeren samt miniauktion.
-          </span>
+          - Sæsonstart, Nyt over Julen
+          </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
 
@@ -38,11 +38,11 @@ function Calendar() {
 
 
         <p style={{ fontSize: 18, fontWeight: "bold" }}>
-          22.09.2025
+        20.01.2025
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-            Fremlægning af Ringsted samlingen v/Erik A.  Miniauktion.
-          </span>
+          - Vi ser på vores Ringsted-samling
+          </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
           
@@ -50,11 +50,11 @@ function Calendar() {
         </p>
 
         <p style={{ fontSize: 18, fontWeight: "bold" }}>
-          06.10.2025
+        03.02.2025
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-           Filateliaften, vi ser på tofarvede med ret og omvendte rammer mm.  Miniauktion.
-          </span>
+          - Filateliaften
+          </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
           
@@ -63,11 +63,11 @@ function Calendar() {
 
 
         <p style={{ fontSize: 18, fontWeight: "bold" }}>
-          19.10.2025
+        17.02.2025
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-           Fælles Byttedag i SORØ.
-          </span>
+          - Bankospil
+          </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
           </span>

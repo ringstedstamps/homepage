@@ -7,10 +7,10 @@ return (
     <div>
 
 <p style={{ textAlign: "center"  }}>
-    ​<span style={{ color: "#000000" }}>Hyldegården Café</span>
+    ​<span style={{ color: "#000000" }}>Anlægspavillonen</span>
   </p>
   <p style={{ textAlign: "center" }}>
-    <span style={{ color: "#000000" }}>Hyldegårdsvej 42</span>
+    <span style={{ color: "#000000" }}>Tværalle 5</span>
     <br />
   </p>
   <p style={{ textAlign: "center" }}>

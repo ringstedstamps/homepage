@@ -38,10 +38,10 @@ function Calendar() {
 
 
         <p style={{ fontSize: 18, fontWeight: "bold" }}>
-        20.01.2025
+        22.09.2025
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-          - Vi ser på vores Ringsted-samling
+          Fremlægning af Ringsted samlingen v/Erik A.  Miniauktion.
           </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
@@ -50,10 +50,11 @@ function Calendar() {
         </p>
 
         <p style={{ fontSize: 18, fontWeight: "bold" }}>
-        03.02.2025
+        06.10.2025
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-          - Filateliaften
+          Filateliaften, vi ser på tofarvede med ret og omvendte rammer mm.  Miniauktion.
+
           </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
@@ -63,10 +64,10 @@ function Calendar() {
 
 
         <p style={{ fontSize: 18, fontWeight: "bold" }}>
-        17.02.2025
+       19.10.2025
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-          - Bankospil
+          Fælles Byttedag i SORØ.
           </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>

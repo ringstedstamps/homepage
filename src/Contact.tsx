@@ -196,11 +196,11 @@ function Contact() {
     <div style={styles.column}>
       <h2>Bestyrelsesmedlemmer</h2>
 
-      <p>- Flemming Havndrup</p>
+      <p>- Jørgen B. Holst</p>
       <p>- Erik Jensen</p>
       <p>- Erik S Andersen</p>
       <h2>Webmaster</h2>
-      <p>- Kenn Møller</p>
+      <p>- Henrik Robstrup</p>
     </div>
    
   </div>

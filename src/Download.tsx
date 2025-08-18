@@ -31,22 +31,22 @@ function Download() {
         </p>
          <p>        
         <a href="pdffiles/Ringsted 2025.pdf" download style={styles.link }>
-          📄 Efterårsprogram 2024
+          📄 ROF 2025
         </a>        
         </p>
          <p>        
         <a href="pdffiles/Omslag folder rettet 23 juli 25.docx" download style={styles.link }>
-          📄 Efterårsprogram 2024
+          📄 Omslag 2025
         </a>        
         </p>
           <p>        
         <a href="pdffiles/Rof Program efterår 25.docx" download style={styles.link }>
-          📄 Efterårsprogram 2024
+          📄 Efterårsprogram 2025
         </a>        
         </p>
             <p>        
         <a href="pdffiles/Rof program forår 26.docx" download style={styles.link }>
-          📄 Efterårsprogram 2024
+          📄 Forårsårsprogram 2026
         </a>        
         </p>
       </div>

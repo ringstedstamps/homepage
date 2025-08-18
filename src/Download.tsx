@@ -29,6 +29,26 @@ function Download() {
           📄 Efterårsprogram 2024
         </a>        
         </p>
+         <p>        
+        <a href="pdffiles/Ringsted 2025.pdf" download style={styles.link }>
+          📄 Efterårsprogram 2024
+        </a>        
+        </p>
+         <p>        
+        <a href="pdffiles/Omslag folder rettet 23 juli 25.docx" download style={styles.link }>
+          📄 Efterårsprogram 2024
+        </a>        
+        </p>
+          <p>        
+        <a href="pdffiles/Rof Program efterår 25.docx" download style={styles.link }>
+          📄 Efterårsprogram 2024
+        </a>        
+        </p>
+            <p>        
+        <a href="pdffiles/Rof program forår 26.docx" download style={styles.link }>
+          📄 Efterårsprogram 2024
+        </a>        
+        </p>
       </div>
     </div>
   );

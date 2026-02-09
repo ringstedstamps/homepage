@@ -19,7 +19,7 @@ function Calendar() {
           Mødetid: kl. 19.00-22.00 - hvis ikke andet er nævnt
           <br />
           <span style={{ fontSize: 20 }}>
-            Test Selve dagens aktiviteter startes kl. 19.00
+            Test test Selve dagens aktiviteter startes kl. 19.00
           </span>
         </p>
 

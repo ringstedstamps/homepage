@@ -87,8 +87,7 @@ function Contact() {
     if (!captchaValue) {
       alert("Klik Jeg er ikke en robot");
       return;
-    }
-    */}  
+    } */}  
 
     // EmailJS parameters
     const templateParams = {

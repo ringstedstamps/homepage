@@ -83,11 +83,12 @@ function Contact() {
       return;
     }
 
-    // Check reCAPTCHA
+    {/* // Check reCAPTCHA
     if (!captchaValue) {
       alert("Klik Jeg er ikke en robot");
       return;
     }
+    */}  
 
     // EmailJS parameters
     const templateParams = {

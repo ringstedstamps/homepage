@@ -12,8 +12,8 @@ function Calendar() {
       {/* Right Side - Text */}
       <div style={styles.textContainer}>
         {/* <span style={styles.text}> */}
-        <p style={{ fontSize: 30 }}>v
-          Vinter/Forår 2026
+        <p style={{ fontSize: 30 }}>
+          Efertår 2026
         </p>
         <p style={{ fontSize: 20 }}>
           Mødetid: kl. 19.00-22.00 - hvis ikke andet er nævnt
@@ -25,10 +25,10 @@ function Calendar() {
 
 
         <p style={{ fontSize: 18, fontWeight: "bold"  }}>
-          05.01.2026
+          14.09.2026
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-          Opstart, nyt over julen samt miniauktion.
+          Opstart, nyt over sommeren samt miniauktion.
           </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
@@ -38,23 +38,10 @@ function Calendar() {
 
 
         <p style={{ fontSize: 18, fontWeight: "bold" }}>
-        19.01.20
+        28.09.20
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-          Filateliaften, evt. Frankostempler og miniauktion.
-          </span>          
-          <br />
-          <span style={{ fontSize: 15, color: "Red" }}>
-          
-          </span>
-        </p>
-
-        <p style={{ fontSize: 18, fontWeight: "bold" }}>
-        02.02.2026
-          <br />
-          <span style={{ fontSize: 15, color: "Red" }}>
-          Generalforsamling og Miniauktion.
-
+          Filateliaften, evt. foredrag og miniauktion.
           </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
@@ -62,12 +49,25 @@ function Calendar() {
           </span>
         </p>
 
-
         <p style={{ fontSize: 18, fontWeight: "bold" }}>
-       16.02.2026
+        12.10.2026
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-          Filateliaften, evt med Perfiner og Miniauktion.
+          Filateliaften, evt. foredrag og Miniauktion.
+
+          </span>          
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+          
+          </span>
+        </p>
+
+
+        <p style={{ fontSize: 18, fontWeight: "bold" }}>
+       25.10.2026
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+          Fælles byttedag i Sorø.
           </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
@@ -75,10 +75,10 @@ function Calendar() {
         </p>
 
         <p style={{ fontSize: 18, fontWeight: "bold" }}>
-          02.03.2026
+          26.10.2026
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-           Filateliaften, evt foredrag og Miniauktion
+           Bankospil og Miniauktion
           </span>
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
@@ -86,10 +86,10 @@ function Calendar() {
         </p>
 
         <p style={{ fontSize: 18, fontWeight: "bold" }}>
-          16.03.2026
+          09.11.2026
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-            Filateliaften, Ringstedsamlingen og Miniauktion.
+            Foredrag "Titanic", Skibsfører Bjørn Stampe kommer og fortæller om skibets historie.
           </span>
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
@@ -97,26 +97,39 @@ function Calendar() {
         </p>
 
         <p style={{ fontSize: 18, fontWeight: "bold" }}>
-          30.03.2026
+          23.11.2026
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+            Vi ser på Ringsted samlingen mm samt miniauktion.
+          </span>
+          <br />
+        </p>
+
+
+        <p style={{ fontSize: 18, fontWeight: "bold" }}>
+          07.12.2026
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
             Storauktion.
-          </span>
-          <br />
-        </p>
-
-
-        <p style={{ fontSize: 18, fontWeight: "bold" }}>
-          13.04.2026
-          <br />
-          <span style={{ fontSize: 15, color: "Red" }}>
-            Afslutning med spisning og evt. bankospil.
           </span>
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
            
           </span>
         </p>
+
+<p style={{ fontSize: 18, fontWeight: "bold" }}>
+          21.12.2026
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+            Juleafslutning med spisning og bankospil
+          </span>
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+           
+          </span>
+        </p>
+
 
         <br />
         <p style={{ fontSize: 18 }}>

@@ -38,7 +38,7 @@ function Calendar() {
 
 
         <p style={{ fontSize: 18, fontWeight: "bold" }}>
-        28.09.20
+        28.09.2026
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
           Filateliaften, evt. foredrag og miniauktion.
@@ -100,7 +100,7 @@ function Calendar() {
           23.11.2026
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
-            Vi ser på Ringsted samlingen mm samt miniauktion.
+            Vi ser på Ringsted samlingen samt miniauktion.
           </span>
           <br />
         </p>

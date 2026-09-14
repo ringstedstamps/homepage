@@ -14,13 +14,7 @@ function ClubHistory() {
             <span style={{ fontSize: 16 }}>
               Ringsted og Omegns Filatelistklub er startet den 26. oktober 1937 og går
               altså i dette efterår ind i rækken af de efterhånden ikke så få 25 års
-              jubilarer. Men foruden denne mærkedag kan klubben fejre endnu een,
-              nemlig 25 års medlemsskab af Danmarks Filatelist Union, idet man straks
-              efter starten indmeldte sig i D.F.U. — Thi, som der står i protokollen
-              fra den gang: Dermed opnår man at få tilsendt unionens medlemsblad samt
-              erhverver ret til at få licens til at deltage i udstillinger. Og om
-              klubbens formålsparagraf skriver den lokale presse, at den er at skabe
-              interesse for den »ædle sport« filatelien.
+              jubilarer. 
             </span>
           </span>
         </p>

@@ -13,7 +13,7 @@ function Calendar() {
       <div style={styles.textContainer}>
         {/* <span style={styles.text}> */}
         <p style={{ fontSize: 30 }}>
-          Efertår 2026
+          sæson 2026/2027
         </p>
         <p style={{ fontSize: 20 }}>
           Mødetid: kl. 19.00-22.00 - hvis ikke andet er nævnt
@@ -143,7 +143,7 @@ function Calendar() {
           </span>
         </p>
 
-<p style={{ fontSize: 18, fontWeight: "bold"  }}>
+        <p style={{ fontSize: 18, fontWeight: "bold"  }}>
           18.01.2027
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>

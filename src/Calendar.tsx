@@ -119,7 +119,7 @@ function Calendar() {
           </span>
         </p>
 
-<p style={{ fontSize: 18, fontWeight: "bold" }}>
+        <p style={{ fontSize: 18, fontWeight: "bold" }}>
           21.12.2026
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
@@ -156,7 +156,7 @@ function Calendar() {
         </p>
 
 <p style={{ fontSize: 18, fontWeight: "bold"  }}>
-          01.02.2026
+          01.02.2027
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
           Filateliaften. Et medlem viser sin samling samt miniauktion
@@ -168,7 +168,7 @@ function Calendar() {
         </p>
 
         <p style={{ fontSize: 18, fontWeight: "bold"  }}>
-          15.02.2026
+          15.02.2027
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
           Generalforsamling
@@ -191,7 +191,7 @@ function Calendar() {
         </p>
 
         <p style={{ fontSize: 18, fontWeight: "bold"  }}>
-          15.03.2026
+          15.03.2027
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
           Filateliaften samt miniauktion
@@ -203,7 +203,7 @@ function Calendar() {
         </p>
 
         <p style={{ fontSize: 18, fontWeight: "bold"  }}>
-          05.04.2026
+          05.04.2027
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
           Storauktion
@@ -215,7 +215,7 @@ function Calendar() {
         </p>
 
         <p style={{ fontSize: 18, fontWeight: "bold"  }}>
-          19.04.2026
+          19.04.2027
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
           Afslutning med spisning og bankospil.

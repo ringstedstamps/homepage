@@ -54,7 +54,8 @@ function Calendar() {
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
           Filateliaften, evt. foredrag og Miniauktion.
-
+          <br />
+          Jørgen viser sin samling om Hafnia udstillingerne
           </span>          
           <br />
           <span style={{ fontSize: 15, color: "Red" }}>
@@ -130,6 +131,100 @@ function Calendar() {
           </span>
         </p>
 
+        <p style={{ fontSize: 18, fontWeight: "bold"  }}>
+          4.01.2027
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+          Opstart, nyt over julen samt miniauktion.
+          </span>          
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+
+          </span>
+        </p>
+
+<p style={{ fontSize: 18, fontWeight: "bold"  }}>
+          18.01.2027
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+          Filateliaften. Frankostempler v/Jørgen Holst
+          </span>          
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+
+          </span>
+        </p>
+
+<p style={{ fontSize: 18, fontWeight: "bold"  }}>
+          01.02.2026
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+          Filateliaften. Et medlem viser sin samling samt miniauktion
+          </span>          
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+
+          </span>
+        </p>
+
+        <p style={{ fontSize: 18, fontWeight: "bold"  }}>
+          15.02.2026
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+          Generalforsamling
+             </span>          
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+          </span>
+        </p>
+
+<p style={{ fontSize: 18, fontWeight: "bold"  }}>
+          01.03.2027
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+          Bankospil og miniauktion
+          </span>          
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+
+          </span>
+        </p>
+
+        <p style={{ fontSize: 18, fontWeight: "bold"  }}>
+          15.03.2026
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+          Filateliaften samt miniauktion
+          </span>          
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+
+          </span>
+        </p>
+
+        <p style={{ fontSize: 18, fontWeight: "bold"  }}>
+          05.04.2026
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+          Storauktion
+          </span>          
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+
+          </span>
+        </p>
+
+        <p style={{ fontSize: 18, fontWeight: "bold"  }}>
+          19.04.2026
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+          Afslutning med spisning og bankospil.
+          </span>          
+          <br />
+          <span style={{ fontSize: 15, color: "Red" }}>
+
+          </span>
+        </p>
 
         <br />
         <p style={{ fontSize: 18 }}>
